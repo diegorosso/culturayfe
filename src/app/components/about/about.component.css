@@ -1,0 +1,87 @@
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.content {
+  max-width: 1000px;
+  padding: 20px;
+}
+
+.text-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-content {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.about-image {
+  width: 50% !important;
+  height: 300px; /* Set a fixed height for all images */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire area */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-text-content {
+  width: 50%;
+  color: #333;
+}
+
+.image-text-content h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.image-text-content p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.about-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 3px solid #333;
+  width: 60%;
+}
+
+.about-button:hover {
+  background-color: #333;
+  color: white;
+}
+
+.font-size {
+  font-size: 5rem;
+  color: #333;
+}
+
+.button-container {
+  display: flex;
+  justify-content: end;
+}
+
+.otro{
+  justify-content: start;
+}
+
+.margin-1{
+  margin-left: 3rem;
+}
+
+.margin-1{
+  margin-right: 3rem;
+}
