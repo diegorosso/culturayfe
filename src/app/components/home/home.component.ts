@@ -8,10 +8,10 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  @ViewChild('hoverVideo', { static: true }) hoverVideo!: ElementRef<HTMLVideoElement>;
-
+/*   @ViewChild('hoverVideo', { static: true }) hoverVideo!: ElementRef<HTMLVideoElement>;
+ */
   ngAfterViewInit() {
-    const videoElement = this.hoverVideo.nativeElement;
+  /*   const videoElement = this.hoverVideo.nativeElement;
 
     videoElement.addEventListener('mouseover', () => {
       videoElement.play();
@@ -20,6 +20,6 @@ export class HomeComponent {
     videoElement.addEventListener('mouseout', () => {
       videoElement.pause();
       videoElement.currentTime = 0; // Reiniciar el video al principio si se desea
-    });
+    }); */
   }
 }
